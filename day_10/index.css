@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 10% 0 10%;
+    padding: 0 15% 0 15%;
 }
 
 /*
@@ -24,7 +24,7 @@ title and banner
 }
 .gery-stripe{
     background-color: rgb(228, 226, 226);
-    width: 80%;
+    width: 70%;
     height: 40px;
     position: absolute;
     top: 250px;
@@ -61,6 +61,7 @@ title and banner
     position: absolute;
     top: 229px;
     left: 50%;
+    text-align: center;
     transform: translateX(-225px);
     -webkit-transform: translateX(-225px);
     -moz-transform: translateX(-225px);
@@ -78,36 +79,32 @@ section
 ***************************************
 */
 
-section{
-    /* padding: 2%; */
-}
+
 table{
     width: 100%;
 }
 .icon{
-    font-size: 1.7rem;
-    color: rgb(233, 196, 31);
-    background-color:rgb(100, 93, 93) ;
-    padding: 2%;
-    border-radius: 50%;
-    border: 5px dotted  rgb(233, 196, 31);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    
+    color:rgb(233, 196, 31) ;
+    font-size: 2rem;
+    position: relative;
+    bottom: 60px;
+    left: 18px ;
 }
 .sub-heading{
     display: inline;
     font-size: 2rem;
     color: rgb(95, 93, 93);
-    padding-left: 10px;
+    padding-left: 10px;  
+    position: relative;   
+    left: 55px;
+    bottom: 60px;
 }
 .description{
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: justify;
-    
+    position: relative;
+    bottom: 35px;
 }
 
 .list-padding{
@@ -117,18 +114,44 @@ table{
 section {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    grid-gap: 50px  ;
+    grid-gap: 100px  ;
 }
 .divider{
     height: 1000px;
     width: 2px;
     background-color: rgb(95, 93, 93);
     position: absolute;
-    left: 49.5%
+    left: 50%
 }
 hr{
     margin-bottom: 3%;
 }
-article{
-    display: inline-block;
+
+.skills{
+    width: 100%;
+}
+
+.icon-background{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color:rgb(100, 93, 93) ;
+    position: absolute;
+}
+.border{
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px dotted  rgb(233, 196, 31);
+    position: relative;
+    bottom: 5.6px;
+    right: 5.5px;
 }
